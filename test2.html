@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style2.css">
+</head>
+<body>
+    <!--[href$="html"] применяем стили по окончанию ссылки на html -->
+    <ul>
+        <li>
+            <a class="link" href="./index.html">На главную</a>
+        </li>
+        <li>
+            <a class="link" href="./about.html">О нас</a>
+        </li>
+        <li>
+            <a class="link" href="./contats.html">Контакты</a>
+        </li>
+    </ul>
+    <!--[href$="css"] применяем стили по окончанию сссылки на css-->
+    <ul>
+        <li>
+            <a class="link" href="https://www.google.com">Google</a>
+        </li>
+        <li>
+            <a class="link" href="https://developer.mozilla.org/ru/docs/web/css">MDN + CSS</a>
+        </li>
+        <li>
+            <a class="link" href="https://stackoverflow.com/questions/tagged/css">StackOverflow + CSS</a>
+        </li>
+    </ul>
+<hr>
+
+<ul class="menu">
+    <li class="menu-item">
+        <a href="#" class="menu-link">Меню 1</a>
+    </li>
+    <li class="menu-item">
+        <a href="#" class="menu-link">Меню 2 ▼</a>
+        <ul class="sub-menu">
+            <li class="menu-item">
+                <a href="#" class="menu-link">Sub Меню 1</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">Sub Меню 2 ▼</a>
+                <ul class="sub-menu">
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Sub Меню 1</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Sub Меню 2</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">Sub Меню 3</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">Sub Меню 3</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link">Sub Меню 4</a>
+            </li>
+        </ul>
+    </li>
+    <li class="menu-item">
+        <a href="#" class="menu-link">Меню 3</a>
+    </li>
+</ul>
+<hr>
+<div class="container">
+    <div class="box opacity">Opacity</div>
+    <div class="box transparent">Transparent</div>
+</div>
+
+</body>
+</html>
