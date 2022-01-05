@@ -1,3 +1,44 @@
+/* блочная модель */
+.outer-box {
+  width: 200px;
+  height: 200px;
+  background-color: teal;
+}
+
+.inner-box {
+  width: 100px;
+  height: 100px;
+  margin-top: 40px;
+  background-color: palevioletred;
+}
+
+/* блочный элемент */
+
+body {
+  background-color: #f9f9fd;
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #0ff;
+  font-size: 20px;
+}
+
+.parent {
+  background-color: #ff0;
+}
+
+.child {
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: #4caf50;
+  text-align: center;
+}
+
+.parent,
+.child {
+  padding: 20px;
+  border-radius: 10px;
+}
+
 /* .link {
   text-decoration: none;
 }
@@ -61,4 +102,20 @@ ul {
 .transparent:hover,
 .transparent:focus {
   background-color: transparent;
+}
+
+.site-nav .link {
+  text-transform: uppercase;
+}
+
+pre {
+  font-family: "Arial", "Helvetica", sans-serif;
+  color: #2a2a2a;
+  font-size: 16px;
+}
+
+pre::first-letter {
+  font-family: "Tahoma", serif;
+  font-size: 32px;
+  color: #f44336;
 }
